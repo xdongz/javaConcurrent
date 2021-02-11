@@ -1,4 +1,4 @@
-/*
+package chapter07;/*
  * Copyright 2021 Synopsys Inc. All rights reserved.
  * This file is confidential material. Unauthorized distribution prohibited.
  */
@@ -128,7 +128,7 @@ class MockConnection implements Connection {
 
   @Override
   public String toString() {
-    return "MockConnection{" +
+    return "chapter07.MockConnection{" +
         "name='" + name + '\'' +
         '}';
   }
